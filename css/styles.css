@@ -154,6 +154,8 @@ h3 {
 .bottom {
   background-color: #2f303a;
   color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .bottom .link {
@@ -166,11 +168,6 @@ h3 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-}
-
-.logowhite {
-  display: inline-block;
-  margin-top: 60px;
 }
 
 address {
@@ -189,6 +186,11 @@ address {
 .features-item:not(:last-child) {
   margin-right: 30px;
 }
+
+.features-item {
+display: block;
+width: 270px;
+ }
 
 .description {
   text-transform: uppercase;
@@ -282,6 +284,7 @@ address {
   background-color: var(--primary-color);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .photo-item:not(:last-child) {
@@ -342,6 +345,7 @@ address {
   flex-wrap: wrap;
   margin-top: 50px;
   padding: 0px;
+  padding-bottom: 94px;
 }
 
 .portfolio-item {
@@ -363,15 +367,12 @@ address {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondaty-text-color);
-  margin-top: 20px;
-  margin-left: 24px;
+  padding-top: 20px;
 }
 
 .webtype {
-  display: inline-block;
+  display: block;
   margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
 }
 
 .navi-links {
@@ -383,4 +384,17 @@ address {
 
 .picture{
   width: 270px;
+}
+
+.display-block {
+  display: block
+}
+
+.portfolio-image{
+  width: 368px;
+}
+
+.site-footer{
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
